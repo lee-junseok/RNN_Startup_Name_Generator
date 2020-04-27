@@ -1,7 +1,7 @@
 # Startup_Name_Generator
 ## You are launching a new start-up company. Using RNN LSTM let's generate a cool start-up name
 
-This is a short project using RNN LSTM to generate a new creative start-up name.
+This is a short project using RNN LSTM to generate a new creative start-up name. The model gets a sequence of characters as input and generate the prediction one at a time at each cell given previous inputs and a current input.
 
 ### Data
 For training I got a list of start-up names from https://www.startups-list.com/. The site has lists of start-up names in other cities as well. I extracted the data out of the HTML and parse the HTML document.
