@@ -4,9 +4,11 @@
 This is a short project using RNN LSTM to generate a new creative start-up name. The model gets a sequence of characters as input and generate the prediction one at a time at each cell given previous inputs and a current input.
 
 ### Data
-For training I got a list of start-up names from https://www.startups-list.com/. The site has lists of start-up names in other cities as well. I extracted the data out of the HTML and parse the HTML document.
+For training I got a list of start-up names from https://www.startups-list.com/. I used names in San Francisco (2329 names). The site has lists of start-up names in other cities as well. I extracted the data out of the HTML and parse the HTML document.
 
 ### Result Examples
+I ran 200 epochs.
+
 'Apprest' is the most optimized name of the model. I think it is a good name. It could be a name for a new IT company, for a new game, or for a biotech company.
 
 Instead of using Argmax, I can do random sampling from each LSTM cell to feed the next cell. Below are some generated examples of random sampling.
