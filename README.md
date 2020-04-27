@@ -11,26 +11,26 @@ For training I got a list of start-up names from https://www.startups-list.com/.
 
 Instead of using Argmax, I can do random sampling from each LSTM cell to feed the next cell. Below are some generated examples of random sampling.
 
-anppreese
-apprest
-apprrest
-apprest
-aondersound
-aondersound
-aickit conder
-arese
-aeedio
-apprrest
-aeartice spores
-apprest
-aeadio
-araph
-apprest
-apprest
-apprest
-apprest
-apprrest
-arpserde
+- anppreese
+- apprest
+- apprrest
+- apprest
+- aondersound
+- aondersound
+- aickit conder
+- arese
+- aeedio
+- apprrest
+- aeartice spores
+- apprest
+- aeadio
+- araph
+- apprest
+- apprest
+- apprest
+- apprest
+- apprrest
+- arpserde
 
 About half of them are the same as Argmax result. You can adjust temperature in one_hot function to adjust diversity.
 
@@ -38,25 +38,25 @@ About half of them are the same as Argmax result. You can adjust temperature in 
 
 I can also give some randomness on the initial states (x0 the first time step input, a0 the initial hidden state, c0 the initial cell state). Below are some examples generated.
 
-ripprene
-sporemant
-eneestree
-topers ate
-hippriseal
-@7sheappphayerable
-adtate
-appaaseare
-heapprist
-️igrom
-bollabs
-loond 
-tretachen mectieng
-rivens
-trealist
-crander
-pppaster
-harophate
-hindersound
-ted
+- ripprene
+- sporemant
+- eneestree
+- topers ate
+- hippriseal
+- @7sheappphayerable
+- adtate
+- appaaseare
+- heapprist
+️- igrom
+- bollabs
+- loond 
+- tretachen mectieng
+- rivens
+- trealist
+- crander
+- pppaster
+- harophate
+- hindersound
+- ted
 
 We see 'Ted' which is an already existing name. ('Ted' is not in the training set.) 'Hindersound' definitely can be some product name or even a company name, 'Igrom' can fit to any field, and 'Rivens' can be a name of a game. Most of these names sound great for me!
