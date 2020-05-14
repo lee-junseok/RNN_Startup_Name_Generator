@@ -13,26 +13,26 @@ I ran 200 epochs with zero vector initialization.
 
 Instead of using Argmax, I can do random sampling from each LSTM cell to feed the next cell. Below are some generated examples of random sampling.
 
--anppreese
--apprest
--apprrest
--apprest
--aondersound
--aondersound
--aickit conder
--arese
--aeedio
--apprrest
--aeartice spores
--apprest
--aeadio
--araph
--apprest
--apprest
--apprest
--apprest
--apprrest
--arpserde
+-   anppreese
+-   apprest
+-   apprrest
+-   apprest
+-   aondersound
+-   aondersound
+-   aickit conder
+-   arese
+-   aeedio
+-   apprrest
+-   aeartice spores
+-   apprest
+-   aeadio
+-   araph
+-   apprest
+-   apprest
+-   apprest
+-   apprest
+-   apprrest
+-   arpserde
 
 About half of them are the same as Argmax result. You can adjust temperature in one_hot function to adjust diversity.
 
