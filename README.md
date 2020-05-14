@@ -49,7 +49,7 @@ I can also give some randomness on the initial states (x0 the first time step in
 -   adtate
 -   appaaseare
 -   heapprist
-️-  igrom
+-   igrom
 -   bollabs
 -   loond 
 -   tretachen mectieng
