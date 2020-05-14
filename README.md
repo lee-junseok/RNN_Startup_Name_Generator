@@ -40,25 +40,25 @@ About half of them are the same as Argmax result. You can adjust temperature in 
 
 I can also give some randomness on the initial states (x0 the first time step input, a0 the initial hidden state, c0 the initial cell state). Below are some examples generated.
 
-- ripprene
-- sporemant
-- eneestree
-- topers ate
-- hippriseal
-- @7sheappphayerable
-- adtate
-- appaaseare
-- heapprist
-️- igrom
-- bollabs
-- loond 
-- tretachen mectieng
-- rivens
-- trealist
-- crander
-- pppaster
-- harophate
-- hindersound
-- ted
+-   ripprene
+-   sporemant
+-   eneestree
+-   topers ate
+-   hippriseal
+-   @7sheappphayerable
+-   adtate
+-   appaaseare
+-   heapprist
+️-  igrom
+-   bollabs
+-   loond 
+-   tretachen mectieng
+-   rivens
+-   trealist
+-   crander
+-   pppaster
+-   harophate
+-   hindersound
+-   ted
 
 We see 'Ted' which is an already existing name. ('Ted' is not in the training set.) 'Hindersound' definitely can be some product name or even a company name, 'Igrom' can fit to any field, and 'Rivens' can be a name of a game. Most of these names sound great for me!
